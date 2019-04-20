@@ -1,5 +1,5 @@
 # CF-Paper-replication
-Replication of [Philippon and Guitierrez (2017), “Investment less Growth: An Empirical Investigation”](https://www.brookings.edu/wp-content/uploads/2017/09/2_gutierrezphilippon.pdf)
+Replication of [Philippon and Guitierrez (2017), “Investment less Growth: An Empirical Investigation”](https://www.brookings.edu/bpea-articles/investment-less-growth-an-empirical-investigation/)
 
 ## Data sources
 
@@ -8,4 +8,4 @@ Replication of [Philippon and Guitierrez (2017), “Investment less Growth: An E
 
 ## Replication files
 
-The authors have made the replication files availible [here](https://www.brookings.edu/bpea-articles/investment-less-growth-an-empirical-investigation/).
+The authors have made the replication files availible on the paper's website.
