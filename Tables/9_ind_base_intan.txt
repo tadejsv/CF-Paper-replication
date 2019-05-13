@@ -1,0 +1,19 @@
+	(1)	(2)	(3)
+VARIABLES	>1990	>1990	>1990
+			
+dm_a1med_logq	0.222**	-0.041	
+	[10.616]	[-0.670]	
+dm_a1med_logq_tot			0.127**
+			[18.677]
+dm_a1m_owntotQIX	-0.097*	-0.094+	-0.109*
+	[-2.185]	[-1.843]	[-2.105]
+dm_mherf	-0.060*	0.020	-0.047+
+	[-2.464]	[0.669]	[-1.674]
+dm_a1_ipshare_i		-0.103*	-0.028
+		[-2.141]	[-0.408]
+			
+Observations	1,106	1,106	1,105
+Age Controls	YES	YES	YES
+Year FE	YES	YES	YES
+Industry de-meaned	YES	YES	YES
+rho	0.475	0.369	0.494

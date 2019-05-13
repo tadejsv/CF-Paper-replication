@@ -1,0 +1,50 @@
+-------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /bbkinghome/tadej/CF-Paper-replication/Tables/18_Tab_curracc.log
+  log type:  text
+ opened on:  13 May 2019, 17:23:12
+
+. foreach X in nfcb nfncb nfb  {  
+  2.         g os_temp = y_`X' - dep_`X' - wn_`X' - taxprod_`X'
+  3.         g ni_temp = i_`X' - dep_`X' 
+  4.         tabstat y_`X' krc_`X' dep_`X' os_temp i_`X' ni_temp if year == 201
+> 4 & indgroup == 1 , c(s) f(%9.1f)
+  5.         drop os_temp ni_temp    
+  6. }
+
+    variable |      mean
+-------------+----------
+      y_nfcb |    8780.3
+    krc_nfcb |   15547.5
+    dep_nfcb |    1285.7
+     os_temp |    1703.6
+      i_nfcb |    1750.2
+     ni_temp |     464.4
+------------------------
+
+    variable |      mean
+-------------+----------
+     y_nfncb |    3266.5
+   krc_nfncb |    6236.2
+   dep_nfncb |     291.8
+     os_temp |    1837.8
+     i_nfncb |     351.8
+     ni_temp |      60.0
+------------------------
+
+    variable |      mean
+-------------+----------
+       y_nfb |   12046.8
+     krc_nfb |   21783.7
+     dep_nfb |    1577.5
+     os_temp |    3541.4
+       i_nfb |    2102.0
+     ni_temp |     524.5
+------------------------
+
+. log close
+      name:  <unnamed>
+       log:  /bbkinghome/tadej/CF-Paper-replication/Tables/18_Tab_curracc.log
+  log type:  text
+ closed on:  13 May 2019, 17:23:12
+-------------------------------------------------------------------------------

@@ -1,2 +1,5 @@
 /Data/Intermediate/*.dta
 /Data/Final/*
+__pycache__/
+.ipynb_checkpoints
+

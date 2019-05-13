@@ -1,0 +1,17 @@
+	(1)	(2)
+VARIABLES	>1990	>1990
+		
+dm_a1med_logq	0.222**	0.222**
+	[10.616]	[10.591]
+dm_a1m_owntotQIX	-0.097*	-0.103*
+	[-2.185]	[-2.379]
+dm_mherf	-0.060*	-0.054*
+	[-2.464]	[-2.321]
+dm_a1m_pifoadj_sh		-0.056*
+		[-2.153]
+		
+Observations	1,106	1,106
+Age Controls	YES	YES
+Year FE	YES	YES
+Industry de-meaned	YES	YES
+rho	0.475	0.476
