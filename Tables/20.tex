@@ -1,0 +1,28 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{6}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
+                    &\multicolumn{1}{c}{>1980 nik}&\multicolumn{1}{c}{>1980 nik}&\multicolumn{1}{c}{>1980 nik}&\multicolumn{1}{c}{>1990 nik}&\multicolumn{1}{c}{>1990 nik}&\multicolumn{1}{c}{>1990 nik}\\
+\hline
+Net Investment      &                    &                    &                    &                    &                    &                    \\
+L.Compustat Q       &       0.006\sym{*} &       0.004        &       0.007\sym{*} &       0.016\sym{**}&       0.012\sym{**}&       0.013\sym{**}\\
+                    &      [2.13]        &      [1.26]        &      [2.06]        &      [2.97]        &      [3.09]        &      [3.11]        \\
+L.amedherf          &                    &      -0.290\sym{*} &      -0.238        &                    &      -0.235\sym{*} &      -0.225        \\
+                    &                    &     [-2.20]        &     [-1.22]        &                    &     [-2.17]        &     [-1.24]        \\
+L.am\_owntotQIX      &                    &                    &      -0.015        &                    &                    &      -0.003        \\
+                    &                    &                    &     [-0.47]        &                    &                    &     [-0.08]        \\
+\hline
+ARMA                &                    &                    &                    &                    &                    &                    \\
+L.ma                &       1.065        &       0.985\sym{**}&       0.827\sym{**}&       0.736\sym{**}&       0.692\sym{*} &       0.685\sym{*} \\
+                    &      [0.00]        &      [4.61]        &      [3.43]        &      [3.30]        &      [2.41]        &      [2.47]        \\
+L2.ma               &       1.000        &       0.344        &       0.252        &       0.503\sym{*} &       0.219        &       0.226        \\
+                    &      [0.00]        &      [1.37]        &      [0.86]        &      [2.18]        &      [0.71]        &      [0.75]        \\
+\hline
+N                   &      36.000        &      36.000        &      34.000        &      26.000        &      26.000        &      26.000        \\
+ll                  &     142.413        &     148.047        &     141.344        &     106.215        &     109.360        &     109.370        \\
+\hline\hline
+\multicolumn{7}{l}{\footnotesize \textit{t} statistics in brackets}\\
+\multicolumn{7}{l}{\footnotesize \sym{+} \(p<0.10\), \sym{*} \(p<0.05\), \sym{**} \(p<.01\)}\\
+\end{tabular}
+}

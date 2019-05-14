@@ -1,14 +1,13 @@
--------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /bbkinghome/tadej/CF-Paper-replication/Tables/18_Tab_curracc.log
   log type:  text
- opened on:  13 May 2019, 17:23:12
+ opened on:  13 May 2019, 19:38:53
 
 . foreach X in nfcb nfncb nfb  {  
   2.         g os_temp = y_`X' - dep_`X' - wn_`X' - taxprod_`X'
   3.         g ni_temp = i_`X' - dep_`X' 
-  4.         tabstat y_`X' krc_`X' dep_`X' os_temp i_`X' ni_temp if year == 201
-> 4 & indgroup == 1 , c(s) f(%9.1f)
+  4.         tabstat y_`X' krc_`X' dep_`X' os_temp i_`X' ni_temp if year == 2014 & indgroup == 1 , c(s) f(%9.1f)
   5.         drop os_temp ni_temp    
   6. }
 
@@ -46,5 +45,5 @@
       name:  <unnamed>
        log:  /bbkinghome/tadej/CF-Paper-replication/Tables/18_Tab_curracc.log
   log type:  text
- closed on:  13 May 2019, 17:23:12
--------------------------------------------------------------------------------
+ closed on:  13 May 2019, 19:38:53
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

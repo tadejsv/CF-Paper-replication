@@ -1,0 +1,21 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{6}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
+                    &\multicolumn{1}{c}{>1980 nik}&\multicolumn{1}{c}{>1980 nik}&\multicolumn{1}{c}{>1980 nik}&\multicolumn{1}{c}{>1990 nik}&\multicolumn{1}{c}{>1990 nik}&\multicolumn{1}{c}{>1990 nik}\\
+\hline
+L.Compustat Q       &       0.003        &       0.003        &       0.010\sym{*} &       0.021\sym{**}&       0.016\sym{**}&       0.017\sym{**}\\
+                    &      [0.87]        &      [1.07]        &      [2.34]        &      [4.95]        &      [4.13]        &      [3.77]        \\
+L.amedherf          &                    &      -0.363\sym{**}&      -0.227\sym{*} &                    &      -0.239\sym{**}&      -0.205\sym{+} \\
+                    &                    &     [-5.13]        &     [-2.10]        &                    &     [-3.64]        &     [-2.01]        \\
+L.am\_owntotQIX      &                    &                    &      -0.020        &                    &                    &      -0.007        \\
+                    &                    &                    &     [-1.18]        &                    &                    &     [-0.44]        \\
+\hline
+N                   &      36.000        &      36.000        &      34.000        &      26.000        &      26.000        &      26.000        \\
+r2                  &       0.022        &       0.456        &       0.527        &       0.505        &       0.686        &       0.689        \\
+\hline\hline
+\multicolumn{7}{l}{\footnotesize \textit{t} statistics in brackets}\\
+\multicolumn{7}{l}{\footnotesize \sym{+} \(p<0.10\), \sym{*} \(p<0.05\), \sym{**} \(p<.01\)}\\
+\end{tabular}
+}

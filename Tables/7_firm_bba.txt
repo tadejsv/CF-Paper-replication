@@ -1,0 +1,23 @@
+	(1)	(2)	(3)	(4)	(5)	(6)
+VARIABLES	>1990	>1990	>1990	>1990	>1990	>1990
+						
+dm_logq		0.038**			-0.153**	
+		[5.803]			[-10.885]	
+dmi_logq	-0.168**			-0.308**		
+	[-10.240]			[-24.135]		
+dmiy_logq			-0.051**			-0.170**
+			[-6.902]			[-11.995]
+dm_owntotQIX_ma2		0.009**			0.008**	
+		[4.949]			[4.410]	
+dmi_owntotQIX_ma2	0.015**			0.015**		
+	[9.364]			[9.300]		
+dmiy_owntotQIX_ma2			0.014**			0.005*
+			[9.064]			[2.488]
+						
+Observations	51,522	51,522	51,522	51,522	51,522	51,482
+Age Controls	YES	YES	YES	YES	YES	YES
+Year FE	YES	YES	NO	NO	YES	YES
+Industry de-meaned	YES	NO	NO	YES	NO	NO
+Firm de-meaned	NO	YES	NO	NO	YES	NO
+Industry-Year de-meaned	NO	NO	YES	NO	NO	YES
+rho	0.160	0.0712	0.133	0.154	0.0649	0.196

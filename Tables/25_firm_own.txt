@@ -1,0 +1,21 @@
+	(1)	(2)	(3)	(4)
+VARIABLES	>1990	>1990	>1990	>1990
+				
+dm_q	2.453	-13.957	3.228+	1.476
+	[1.555]	[-1.588]	[1.682]	[1.229]
+dm_mherf	-0.416	9.355	0.051	-0.180
+	[-0.352]	[1.636]	[0.057]	[-0.257]
+dm_owntotQIX_ma2	0.546			
+	[1.402]			
+dm_pctinsown		12.166		
+		[1.589]		
+dm_owntotTRA_ma2			-9.876	
+			[-1.598]	
+dm_owntotDED_ma2				1.327
+				[1.179]
+				
+Observations	59,236	66,703	59,241	58,200
+Age Controls	YES	YES	YES	YES
+Year FE	YES	YES	YES	YES
+Firm de-meaned	YES	YES	YES	YES
+rho	0.0379	-0.145	0.0474	0.0564

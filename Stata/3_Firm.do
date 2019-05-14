@@ -141,16 +141,16 @@ use tempfirm,clear
 * CAPX+R&D 
 xtewreg fdm80_logik4 dm80_logq_m dm80_logage _Iyear_1980-_Iyear_2015 if year>=1979 & year <= 2015 , maxdeg(5) mis(1)
 coefplot , keep(*year*) xline(-0.313104) name(g2_fe, replace) ti("Firm-level time effects (Compustat)", size(med)) nodraw
-graph combine g1_fe g2_fe
-graph export Figures/8_NIQ_FixedEffects.eps, as(eps) mag(200) replace 
+* graph combine g1_fe g2_fe
+* graph export Figures/8_NIQ_FixedEffects.eps, as(eps) mag(200) replace 
 
 * R&D  
 xtewreg fdm80_logik3 dm80_logq_m dm80_logage _Iyear_1980-_Iyear_2015 if year>=1979 & year <= 2015 , maxdeg(5) mis(1)
 coefplot , xline(-0.145066) keep(*year*) name(g2_fe_rd, replace) ti("Firm-level time effects (Compustat)", size(med)) nodraw
-graph combine g1_fe_rd g2_fe_rd
-graph export Figures/11_NIQ_FixedEffects_RD.eps, as(eps) mag(200) replace 
+* graph combine g1_fe_rd g2_fe_rd
+* graph export Figures/11_NIQ_FixedEffects_RD.eps, as(eps) mag(200) replace 
 
-window manage close graph 
+
 
 * Effect of intangibles 
 matrix outM = J(36,3,.)

@@ -1,0 +1,35 @@
+	(1)	(2)	(3)	(4)	(5)	(6)	(7)	(8)
+VARIABLES	>1980	>1980	>1980	>1980	>1980	>1980	>1980	>1980
+								
+dm80_q				90.165**				
+				[5.143]				
+dmi80_q							22.397**	
+							[3.476]	
+dm80_q2					0.045**			
+					[3.287]			
+dm80_q_tot						75.411**		
+						[4.303]		
+dmi80_q_tot								5.927*
+								[2.081]
+dm80_intanat				84.809**	-1.990+	72.942**		
+				[4.497]	[-1.821]	[3.673]		
+dmi80_intanat							18.556**	3.468
+							[2.897]	[1.340]
+L.q	0.576**							
+	[8.318]							
+L.intanat	-1.503+	-2.199**	-1.241					
+	[-1.890]	[-2.703]	[-1.563]					
+L.q2		0.000						
+		[0.166]						
+L.q_tot			0.678**					
+			[12.378]					
+								
+Observations	117,184	114,288	117,184	117,184	114,288	117,184	117,184	117,184
+R-squared	0.001	0.001	0.002					
+Number of gvkey	13,688	13,424	13,688					
+Method	OLS	OLS	OLS	EW	EW	EW	EW	EW
+Age Controls	YES	YES	YES	YES	YES	YES	YES	YES
+Year FE	YES	YES	YES	YES	YES	YES	YES	YES
+Firm de-meaned	YES	YES	YES	YES	YES	YES	NO	NO
+Industry de-meaned	NO	NO	NO	NO	NO	NO	YES	YES
+rho	0.412	0.412	0.412	0.108	0.000701	0.171	0.0335	0.0165
